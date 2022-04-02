@@ -17,7 +17,7 @@ import Profile from './pages/Profile';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/project-recipes-app">
       <Switch>
         <Route
           exact
