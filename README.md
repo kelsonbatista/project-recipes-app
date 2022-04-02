@@ -17,7 +17,7 @@ This project is a recipes app, using the most modern within the React ecosystem:
 ---
 # Layout
 
-<img src="intro.gif" alt="Project Recipes App" style="height: 100%; width:100%;"/>
+<img src="intro.gif" alt="Project Recipes App" style="width:40%;"/>
 
 ---
 # Deployment / *Implantação*
