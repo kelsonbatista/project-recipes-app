@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import ContextApp from '../../context/ContextApp';
-import logo from '../../images/logo2.png';
+import logo from '../../images/cap002.png';
 
 export default function Login() {
   const history = useHistory();
@@ -34,7 +34,7 @@ export default function Login() {
       <div className="max-w-[90%] w-[350px] bg-black/40 p-8 rounded-xl z-1">
         <div>
           <img src={ logo } alt="Rappidíssimo Logo" />
-          <h2 className="font-logo text-center text-white">Rappidíssimo</h2>
+          <h1 className="font-logo text-center text-white">Delicious!</h1>
           <label
             className="block text-sm font-bold mb-2 text-white z-10"
             htmlFor="username"
