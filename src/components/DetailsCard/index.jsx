@@ -29,6 +29,9 @@ function DetailsCard() {
 
   return (
     <div>
+      <div className="backbutton">
+        <FontAwesomeIcon icon="fa-solid fa-arrow-left" />
+      </div>
       {details.map((detail, index) => (
         <div key={ index }>
           <img

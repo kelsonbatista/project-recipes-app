@@ -164,6 +164,16 @@
 }
 
 /* ! classes non tailwind */
+.backbutton {
+  background-color: #cc0022;
+  border-radius: 10px;
+  position: absolute;
+  top: 20px;
+  left: -10px;
+  width: 70px;
+  height: 50px;
+}
+
 .progress__line {
   text-decoration: line-through solid rgb(0, 0, 0);
 }
@@ -183,7 +193,7 @@
 
 .font-logo {
   font-family: 'Lily Script One', cursive;
-  font-size: 60px;
+  font-size: 3.2rem;
 }
 
 body {
