@@ -1,7 +1,9 @@
 import React, { useContext, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { useParams } from 'react-router-dom';
+import { useParams, useHistory } from 'react-router-dom';
 import ReactPlayer from 'react-player/youtube';
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ContextApp from '../../context/ContextApp';
 import DetailsButton from '../DetailsButton';
 import RecommendationCard from '../RecommendationCard';
@@ -21,6 +23,7 @@ function DetailsCard() {
   const validIngredients = [];
   const ingredients = [];
   const term2 = (urlDrinks ? 'cocktails' : 'meals');
+  const history = useHistory();
 
   useEffect(() => {
     const chosenAPI = (urlDrinks ? 'drinks' : 'foods');
@@ -30,7 +33,9 @@ function DetailsCard() {
   return (
     <div>
       <div className="backbutton">
-        <FontAwesomeIcon icon="fa-solid fa-arrow-left" />
+        <button type="button" onClick={ () => history.push('/foods') }>
+          <FontAwesomeIcon icon={ faArrowLeft } />
+        </button>
       </div>
       {details.map((detail, index) => (
         <div key={ index }>

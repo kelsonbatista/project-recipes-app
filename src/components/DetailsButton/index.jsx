@@ -23,6 +23,7 @@ function DetailsButton(props) {
   const month = String(data.getMonth() + 1).padStart(2, '0');
   const year = data.getFullYear();
   const arrysTags = (newURL === 'Drink') ? '' : detailedItem.strTags.split(',');
+  console.log(detailedItem.strTags, 'detailed');
   const favoriteRecipe = {
     id: currentItemId,
     type: newTerm,

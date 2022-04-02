@@ -167,11 +167,14 @@
 .backbutton {
   background-color: #cc0022;
   border-radius: 10px;
+  color:white;
+  font-size: 2.3rem;
+  height: 50px;
+  left: -20px;
+  padding-left: 25px;
   position: absolute;
   top: 20px;
-  left: -10px;
   width: 70px;
-  height: 50px;
 }
 
 .progress__line {

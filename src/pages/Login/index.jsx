@@ -33,7 +33,7 @@ export default function Login() {
     >
       <div className="max-w-[90%] w-[350px] bg-black/40 p-8 rounded-xl z-1">
         <div>
-          <img src={ logo } alt="Rappidíssimo Logo" />
+          <img src={ logo } alt="Delicious Logo" />
           <h1 className="font-logo text-center text-white">Delicious!</h1>
           <label
             className="block text-sm font-bold mb-2 text-white z-10"
